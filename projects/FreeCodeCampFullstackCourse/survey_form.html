@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Uzaylılarla İlk Buluşma Anketi</h1>
+    <p id="description">Eğer bir uzaylıyla tanışsaydın, neler yapardın? Bu anketle hayal gücünü test et!</p>
+
+    <form id="survey-form">
+      
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" placeholder="Adını yaz" required>
+
+      
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" placeholder="E posta adresin" required>
+
+      
+      <label for="number" id="number-label">Age (optional):</label>
+      <input type="number" id="number" min="7" max="100" placeholder="Yaşın" required>
+
+     
+      <p>Hangi tür uzaylılarla tanışmak isterdin?</p>
+      <select id="dropdown">
+        <option value="mars">Marslılarla tanışmak istiyorum.</option>
+        <option value="andromeda">Andromeda’dan gelenlerle tanışmak istiyorum.</option>
+        <option value="zeta">Zeta Reticuli yıldız sisteminden olanlarla tanışmak isterim.</option>
+        <option value="gizli">Dünyada gizlice yaşayan uzaylılarla tanışmak isterim.</option>
+      </select>
+        
+      
+      <p>İlk karşılaştığında ne yaparsın?</p>
+      <div>
+        <input type="radio" name="first-meeting" value="kaçmak"> Kaçarım
+        <input type="radio" name="first-meeting" value="konuşmak"> Konuşurum
+        <input type="radio" name="first-meeting" value="selfie"> Selfie çekerim
+      </div>
+
+      
+      <p>Uzaylılarla iletişim kurmak için hangi yöntemi seçerdin?</p>
+      <div>
+        <input type="radio" name="communication" value="telepati"> Telepati 🧠
+        <input type="radio" name="communication" value="müzik"> Müzik 🎶
+        <input type="radio" name="communication" value="tcihaz"> Teknoloji (bilgisayar, cihaz) 💻
+        <input type="radio" name="communication" value="vücutdili"> Vücut dili 🤝
+      </div>
+
+     
+      <p>Uzaylıların hangi özelliğini merak ediyorsun?</p>
+      <input type="checkbox" value="teknoloji"> Teknoloji
+      <input type="checkbox" value="kültür"> Kültür
+      <input type="checkbox" value="yemek"> Yemekleri
+      <input type="checkbox" value="müzik"> Müzikleri
+
+     
+      <p>Uzaylı dostuna hangi hediyeyi verirdin?</p>
+      <input type="text" id="gift">
+
+      
+      <p>İlk mesajın ne olurdu?</p>
+      <textarea rows="5" cols="50"></textarea>
+
+    
+      <button id="submit">Cevabı Gönder</button>
+    </form>
+  </body>
+</html>
+
+
