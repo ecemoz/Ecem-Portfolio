@@ -1,0 +1,62 @@
+header {
+  background-color: #195449;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+article {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #407a71;
+}
+
+h1,
+h2 {
+  font-family: "Georgia", serif;
+  text-align: center;
+  color: beige;
+  text-shadow: 2px 2px 4px #13454b;
+}
+
+h3{ color:#126b88
+    text-shadow: 1px 1px 2px #13454b;
+    font-family:"Georgia";
+}
+
+.image{
+    box-shadow: 2px 2px 8px rgba(1, 50, 70, 0.3);
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.image:hover{
+    box-shadow: 8px 8px 8px 8px rgba(51, 84, 67, 0.864);
+    transform: scale(1.2)
+}
+
+p{
+    font-family: Georgia,serif;
+    line-height: 1.2;
+    color: #dde4e7;
+    text-align:left;
+}
+
+figcaption{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #05151b;
+    text-align:left;
+    margin-top: 0.5rem;
+}
+
+#reflections{
+    background-color:#195449;;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    font-style: italic;
+    text-align: center;
+}
