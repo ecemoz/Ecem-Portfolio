@@ -7,6 +7,7 @@
   </head>
   <body>
     <header>
+      <link href="style.css" rel="stylesheet"/>
     <a href="../course.html"
 
       ><img width="36" height="36" src="/assets/back.svg"
@@ -20,10 +21,11 @@
 
    <article>
     <header>
+    <link href="style.css" rel="stylesheet">
     <h2>The Basic Language of the Web: HTML</h2>
 
     <img src="laura-jones.jpg" alt="Laura Jones" width="50" height="50" />
-    <p>Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p>
+    <p id="author">Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p>
     
     <img
       src="post-img.jpg"
@@ -41,7 +43,7 @@
       about, and why you too should learn it.<br />
     </p>
 
-    <h3>What is HTML?</h3>
+    <h3 id="what-is-html">What is HTML?</h3>
     <p>
       HTML stands for <b>H</b>yperText <b>M</b>arkup <b>L</b>anguage. It's a markup language that web
       developers use to structure and describe the content of a webpage (not a
@@ -57,7 +59,7 @@
         <li>The actual element</li>
       </ol>
 
-      You can learn more at the <a href="https://google.com"> MDN Web Docs.</a>
+      <p>You can learn more at the <a href="https://google.com"> MDN Web Docs.</a></p>
       
       <h3> Why should you learn HTML?</h3>
       <p>
@@ -69,7 +71,8 @@
           <li>To build web applications</li>
           <li>To impress friends</li>
           <li>To have fun 😃</li>
-        </ul>
+        </ul></p>
+      <p>
       Hopefully you learned something new here. See you next time!
     </p>
     <article>
@@ -79,13 +82,13 @@
     <aside>
     <h4>Related Posts</h4>
     <ul>
-        <li><figure><img src="related-1.jpg" alt="Related Post 1" width="100" height="100" /><figcaption>By Jones Schmedtmann</figcaption></figure><a href="https://google.com">How to learn Web Development</a></li>
-        <li><figure><img src="related-2.jpg" alt="Related Post 2" width="100" height="100" /><figcaption>By Jim Dalton</figcaption></figure><a href="https://google.com">How to unknown powers of CSS</a></li>
-        <li><figure><img src="related-3.jpg" alt="Related Post 3" width="100" height="100" /><figcaption>By Matilda</figcaption></figure><a href="https://google.com">Why JavaScript is awesome</a></li>
+        <li class="related-post"><figure><img src="related-1.jpg" alt="Related Post 1" width="100" height="100" /><figcaption class="authors">By Jones Schmedtmann</figcaption></figure><a href="https://google.com">How to learn Web Development</a></li>
+        <li class="related-post"><figure><img src="related-2.jpg" alt="Related Post 2" width="100" height="100" /><figcaption class="authors">By Jim Dalton</figcaption></figure><a href="https://google.com">How to unknown powers of CSS</a></li>
+        <li class="related-post"><figure><img src="related-3.jpg" alt="Related Post 3" width="100" height="100" /><figcaption class="authors">By Matilda</figcaption></figure><a href="https://google.com">Why JavaScript is awesome</a></li>
     </ul>
     </aside>
    
 
-    <footer>Copyright © 2027 The Code Magazine</footer>
+    <footer><p id="copyright">Copyright © 2027 The Code Magazine</p></footer>
   </body>
 </html>
