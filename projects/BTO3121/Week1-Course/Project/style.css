@@ -1,25 +1,24 @@
 h1 {
-  color: rgb(164, 111, 167);
+  color: #1098ad;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
-  font-style: oblique;
 }
 
 h2 {
-  color: rgb(144, 114, 172);
+  color: #1098ad;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
 }
 
 h3 {
-  color: rgb(144, 114, 172);
+  color: #1098ad;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
 }
 
 h4 {
-  color: rgb(144, 114, 172);
+  color: #1098ad;
   font-size: 18px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: normal;
@@ -27,40 +26,47 @@ h4 {
 }
 
 p {
-  color: rgb(111, 57, 131);
+  color: #808080;
   font-size: 15px;
   line-height: 1.5;
 }
 
 li {
-  color: rgb(183, 127, 235);
+  color: #02233960;;
   font-size: 15px;
-  font-style: italic;
 }
 
 header {
-  background-color: rgba(181, 112, 181, 0.777);
+  background-color: #41789d60;
   padding: 20px;
   text-align: left;
-}
+  border: 5px solid #387882;
+  }
+  /*
+  border-right: 5px solid #387882;
+  border-left: 5px solid #387882;
+  border-top: 5px solid #387882;
+  border-bottom: 5px solid #387882; */
 
 article {
-  background-color: rgba(221, 160, 221, 0.377);
-  padding: 20px;
-  margin: 20px;
+  background-color: #41789d60;
+  padding-left: 20px;
+  padding-right:20px;
+  margin: 10px;
   border-radius: 10px;
 }
 
 footer {
-  background-color: rgba(181, 112, 181, 0.777);
+  background-color: #41789d60;
   padding: 10px;
   text-align: center;
   font-size: 12px;
   font-style: italic;
 }
 
+
 #author {
-  color: rgb(85, 9, 113);
+  color: #41789d60;
   font-size: 12px;
   font-style: italic;
   margin-top: -5px;
@@ -68,14 +74,14 @@ footer {
 }
 
 #copyright {
-  color: rgb(85, 9, 113);
+  color: #00090f60;
   font-size: 12px;
   font-style: italic;
   background-size: contain;
 }
 
 .authors {
-  color: rgb(125, 114, 196);
+  color: #41789d60;
   font-size: 12px;
   font-style: italic;
   margin-top: 15px;
@@ -83,4 +89,38 @@ footer {
 
 .related-post {
   list-style-type: none;
+}
+
+li:first-child {
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+li:last-child {
+  color: #7fffd4;
+}
+
+li:nth-child(even){
+  font-size: large;
+  color: #901414;
+}
+
+a:link {
+  color: #5c9683;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fce700;
+}
+
+a:hover {
+  color:#f5f5dc;
+  font-weight: bold;
+  text-decoration:underline dotted;
+}
+
+a:active {
+  background-color: rgb(30, 63, 51) ;
 }
