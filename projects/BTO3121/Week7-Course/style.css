@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Covered By Your Grace', cursive;
+    background-color: #FFEBD8; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.part {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.part .text {
+    background-color: #FFE5E5; 
+    color: #855d81;
+    padding: 20px 60px;
+    border-radius: 8px;
+}
+
+
+.part.one {
+    background-color: #FFC5C5; 
+    padding: 40px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.part.one img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.part.one h1 {
+    font-size: 60px;
+    color: #FFFFEC;
+    margin-bottom: 10px;
+}
+
+.part.one p {
+    max-width: 540px;
+    line-height: 2em;
+}
+
+.part.one footer {
+    color: #3B3B1A;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+.part.two {
+    background-color: #fbd0d0;
+    padding: 40px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.part.two img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.part.three {
+    background-color: #FFE5E5; 
+    color: #3B3B1A;
+    padding: 40px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.part.three nav {
+    display: flex;
+    gap: 15px;
+}
+
+.part.three nav a {
+    text-decoration: none;
+    color: #3B3B1A;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.part.three nav a:hover {
+    border-bottom: 2px solid #3B3B1A;
+}
+
+
+
+@media (max-width: 980px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .part {
+        padding: 20px;
+    }
+}
